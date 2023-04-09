@@ -1,5 +1,5 @@
-# Chemicals decarbonization model
-This repository contains the chemicals decarbonization model, as created by SYSTEMIQ/University of Cambridge/University of Tokyo funded by the Mitsibishu Chemicals Corporation (MCC).
+# Chemicals decarbonization model Japan
+This repository contains the chemicals decarbonization model, as created by SYSTEMIQ/University of Tokyo funded by the Mitsibishu Chemicals Corporation (MCC). We acknowledge the support from the University of Cambridge and the wider expert panel on the development of the Global Model. 
 This README describes how to set up and use the model. A more detailed description about how the model works can be found in `docs/`.
 
 ## Windows
@@ -37,7 +37,7 @@ If using
 `virtualenv Pathways-Chemical-Industry`
 3. Install project requirements using `pip install -r requirements.txt`
 4. Create a `data/` directory, and add the input data sheet (`Master Template - python copy.xslx`) into it.
-5. Make a copy of the `config_template.py` file and rename it to `config.py`. Make changes only to `config.py`.
+5. Make a copy of the `config_template_Japan.py` file and rename it to `config.py`. Make changes only to `config.py`.
 6. Run the model using `python -m main`
 7. Outputs are added in the `output/` directory
 
@@ -45,7 +45,7 @@ If using
 1. Navigate to `chemicals-decarbonization` folder and activate the environment
 2. Install project requirements using `pip install -r requirements.txt`
 3. Create a `data/` directory, and add the input data sheet (`Master Template - python copy.xslx`) into it.
-4. Make a copy of the `config_template.py` file and rename it to `config.py`. Make changes only to `config.py`.
+4. Make a copy of the `config_template_Japan.py` file and rename it to `config.py`. Make changes only to `config.py`.
 5. Run the model using `python -m main`
 6. Outputs are added in the `output/` directory
 
@@ -68,5 +68,5 @@ There are more configuration options, a complete explanation is in `config.py`.
 ## Contacts
 Technical questions: [shajeeshan.lingeswaran@systemiq.earth](shajeeshan.lingeswaran@systemiq.earth) 
 
-Subject matter questions: [jane.leung@systemiq.earth](jane.leung@systemiq.earth), [andreas.wagner@systemiq.earth](andreas.wagner@systemiq.earth), [fm392@cam.ac.uk](fm392@cam.ac.uk) [daisuke.kanazawa@ifi.u-tokyo.ac.jp](daisuke.kanazawa@ifi.u-tokyo.ac.jp)
+Subject matter questions: [jane.leung@systemiq.earth](jane.leung@systemiq.earth), [andreas.wagner@systemiq.earth](andreas.wagner@systemiq.earth), [daisuke.kanazawa@ifi.u-tokyo.ac.jp](daisuke.kanazawa@ifi.u-tokyo.ac.jp)
 
